@@ -1,0 +1,69 @@
+.opdracht-1 li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-1 ul {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 800px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.opdracht-2 ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.opdracht-2 li{
+    display: flex;
+    flex-basis: 238px;
+    height: 118px;
+}
+
+.opdracht-3 ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+li.left
+{
+
+    align-self: flex-start;
+}
+
+li.center{
+    align-self: center;
+}
+
+li.right{
+    align-self: flex-end;
+}
+
+
+
+.opdracht-4 ul{
+    display: flex;
+    gap : 10px;
+    flex-wrap : wrap;
+
+}
+
+
+.opdracht-5 ul {
+    display: flex;
+}
+
+.opdracht-5 .one{
+    display: flex;
+    justify-content: flex-start;
+
+}
